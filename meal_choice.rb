@@ -5,14 +5,19 @@ end
 puts snacks("Swedish fish")
 puts snacks
 
-def breakfast(nom="Frosted Flakes")
-  "Morning, is the right time for #{nom}!"
+def breakfast(nom="frosted flakes")
+  "Morning is the right time for #{nom}!"
 end
 puts breakfast("Pancakes")
-puts breakfast
 
-def lunch(yum="Grilled Cheese")
-  "Any time, is the right time for #{yum}!"
+def lunch(yum="grilled cheese")
+  "Afternoon is the right time for #{yum}!"
 end
-puts lunch("Pancakes")
+puts lunch("Sandwitch")
 puts lunch
+
+def dinner(crunch="salmon")
+  "Evening is the right time for #{crunch}!"
+end
+puts dinner("Broccoli")
+puts dinner
